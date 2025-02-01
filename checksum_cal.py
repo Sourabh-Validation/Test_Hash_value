@@ -13,7 +13,6 @@ def calculate_checksum(file_path):
         return "File not found or unable to read file."
 
 
-# Example usage:
-file_path = '/home/sourabh/Mahindra/images/icc/image_for_git.bin'
+file_path = '<your_file_path/Example_image.bin>'
 checksum = calculate_checksum(file_path)
 print("SHA-256 Checksum:", checksum)
